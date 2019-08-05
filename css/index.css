@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-family:"Microsoft YaHei";
+}
+
+.player{
+    width: 375px;
+    height: 550px;
+    background-color: #666;
+    border-radius: 10px;
+    position: relative;
+}
+
+.header{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.songPic{
+    background-color: #fff;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto 0;
+    border-radius: 50%;
+}
+
+.songInfo{
+    margin: 20px auto 0;
+    font-size: 14px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.songInfo .name{
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 8px;
+}
+
+.progress{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.progress span{
+    display: inline-block;
+    height: 60px;
+    background-image: linear-gradient(to bottom , #7A88FF, #7AFFAF);
+    opacity: .3;
+}
+
+.control{
+    position: relative;
+}
+
+.control .previous{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 6px;
+    left: 60px;
+    /* background-color: pink; */
+}
+
+.control .previous i{
+    display: block;
+    height: 55px;
+    width: 55px;
+    background-image: url(../images/previous.png);
+    background-size: 100% 100%;
+}
+
+.control .next{
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 6px;
+    right: 60px;
+}
+
+.control .next i{
+    display: block;
+    height: 55px;
+    width: 55px;
+    background-image: url(../images/next.png);
+    background-size: 100% 100%;
+}
+
+.control .pause{
+    width: 65px;
+    height: 65px;
+    margin: 30px auto 0;
+}
+
+.control .pause i{
+    display: block;
+    width: 65px;
+    height: 65px;
+    background-image: url(../images/pause.png);
+    background-size: 100% 100%;
+}
+
+.time{
+    position: absolute;
+    width: 335px;
+    bottom: 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+

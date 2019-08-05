@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/jquery-1.12.4.js"></script>
+</head>
+
+<body>
+    <input type="button" id="btn">
+    <audio id="music" controls="controls"
+        src="http://113.215.22.156/amobile.music.tc.qq.com/C4000042jyJt0aQ0Gd.m4a?guid=1823681314&vkey=6737FD76C013F8EA08BAE94E676E295C9293382A3F69BD5D4770B5755C15F5089A9059A02F37AD580188F16A53FE94CE98F81A35F2C01469&uin=1634&fromtag=66"></audio>
+    <script>
+        var btn = $('#btn').click(function () {
+            $('#music')[0].play();
+
+        })
+    </script>
+</body>
+
+</html>
