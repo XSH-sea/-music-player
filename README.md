@@ -15,4 +15,4 @@
 1. 实现随机播放、顺序播放、单曲循环三种播放模式的切换  
 2. 增加歌曲列表，可以从歌曲列表选择播放的歌曲  
 
-<a href="https://xsh-sea.github.io/-/index.html">预览地址</a>
+<a href="https://xsh-sea.github.io/-music-player/index.html">预览地址</a>
